@@ -1,0 +1,26 @@
+mode "smooth keyboard light"{
+
+	bindsym w exec --no-startup-id sudo /home/gokul/scripts/smooth_rgb_color.sh 999999
+	bindsym r exec --no-startup-id sudo /home/gokul/scripts/smooth_rgb_color.sh ff3030
+	bindsym g exec --no-startup-id sudo /home/gokul/scripts/smooth_rgb_color.sh 30ff30
+	bindsym b exec --no-startup-id sudo /home/gokul/scripts/smooth_rgb_color.sh 3030ff
+	bindsym c exec --no-startup-id sudo /home/gokul/scripts/smooth_rgb_color.sh 209090
+	bindsym p exec --no-startup-id sudo /home/gokul/scripts/smooth_rgb_color.sh 902090
+	bindsym y exec --no-startup-id sudo /home/gokul/scripts/smooth_rgb_color.sh 909020
+	bindsym v exec --no-startup-id sudo /home/gokul/scripts/smooth_rgb_color.sh 2200ff
+	bindsym Shift+r exec --no-startup-id sudo /home/gokul/scripts/smooth_rgb_color.sh 501010
+	bindsym Shift+g exec --no-startup-id sudo /home/gokul/scripts/smooth_rgb_color.sh 105010
+	bindsym Shift+b exec --no-startup-id sudo /home/gokul/scripts/smooth_rgb_color.sh 101050
+	bindsym Shift+w exec --no-startup-id sudo /home/gokul/scripts/smooth_rgb_color.sh 404040
+#	bindsym Sfift+c exec --no-startup-id sudo /home/gokul/scripts/smooth_rgb_color.sh 105050
+	bindsym Shift+p exec --no-startup-id sudo /home/gokul/scripts/smooth_rgb_color.sh 501050
+	bindsym Shift+y exec --no-startup-id sudo /home/gokul/scripts/smooth_rgb_color.sh 505010
+	bindsym 1 exec --no-startup-id sudo /home/gokul/scripts/rgb.sh 2200ff 2200ff 2200ff ccff00
+	bindsym 2 exec --no-startup-id sudo /home/gokul/scripts/rgb.sh 2200ff ccff00 2200ff 2200ff
+#	bindsym 3 exec --no-startup-id sudo /home/gokul/scripts/rgb.sh 999999
+#	bindsym 4 exec --no-startup-id sudo /home/gokul/scripts/rgb.sh 999999	
+	bindsym Escape mode "default"
+	bindsym $mod+$mod1+k mode "default"
+}
+
+bindsym $mod+$mod1+s mode "smooth keyboard light"

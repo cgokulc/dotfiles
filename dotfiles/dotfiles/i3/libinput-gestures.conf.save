@@ -1,0 +1,9 @@
+# Swipe threshold (0-100)
+swipe_threshold 0
+
+# Gestures
+gesture swipe left 3 i3-msg "workspace prev"
+gesture swipe right 3 i3-msg "workspace next"
+gesture pinch in 3 i3-msg "fullscreen"
+gesture pinch out 3 i3-msg "fullscreen"
+gesture swipe left_down 

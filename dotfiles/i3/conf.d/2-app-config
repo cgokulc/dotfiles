@@ -1,0 +1,26 @@
+# start a terminal
+#bindsym $mod+Return exec i3-sensible-terminal
+#ADDed below linw instead of above line by GOKUL 
+bindsym $mod+Return exec --no-startup-id i3-msg "workspace terminal" && kitty
+
+# start dmenu (a program launcher)
+#bindsym $mod+d exec dmenu_run
+# There also is the (new) i3-dmenu-desktop which only displays applications
+# shipping a .desktop file. It is a wrapper around dmenu, so you need that
+# installed.
+#bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
+bindsym $mod+d exec --no-startup-id rofi -show drun -show-icons
+#Application launcher bindings---GOKUL
+bindsym $mod+b exec --no-startup-id i3-msg "workspace browser" && brave
+bindsym $mod+f exec --no-startup-id i3-msg "workspace file" && nautilus
+
+#assign workspace ---GOKUL
+for_window [class="firefox"] move to workspace browser
+for_window [class="Brave-browser"] move to workspace browser
+for_window [class="kitty"] move to workspace terminal
+for_window [class="Org.gnome.Nautilus"] move to workspace file
+for_window [class="Spotify"] move to workspace music
+
+#Floating rule -- GOKUL
+for_window [class="Microsoft Teams - Preview"] floating enable
+for_window [class="Eog"] floating enable

@@ -1,0 +1,70 @@
+mode "keyboard light"{
+
+	bindsym a exec --no-startup-id sudo /home/gokul/scripts/rgb.sh ffb673 
+	#apricot
+	bindsym b exec --no-startup-id sudo /home/gokul/scripts/rgb.sh 0827f5 
+	#blue screen of death
+	bindsym c exec --no-startup-id sudo /home/gokul/scripts/rgb.sh 00bce3 
+	#cyan
+	bindsym d exec --no-startup-id sudo /home/gokul/scripts/rgb.sh 1560bd 
+	#denim blue
+	bindsym e exec --no-startup-id sudo /home/gokul/scripts/rgb.sh 44d7a8 
+	#eucalyptus
+	bindsym f exec --no-startup-id sudo /home/gokul/scripts/rgb.sh ff69b4 
+	#fluourescent pink
+	bindsym g exec --no-startup-id sudo /home/gokul/scripts/rgb.sh 30ff30 
+	#green
+	bindsym h exec --no-startup-id sudo /home/gokul/scripts/rgb.sh fc4c02 
+	#halloween orange
+	bindsym i exec --no-startup-id sudo /home/gokul/scripts/rgb.sh fffff0 
+	#ivory
+	bindsym j exec --no-startup-id sudo /home/gokul/scripts/rgb.sh 00a86b 
+	#jade green
+	bindsym k exec --no-startup-id sudo /home/gokul/scripts/rgb.sh 046a38 
+	#kelly green
+	bindsym l exec --no-startup-id sudo /home/gokul/scripts/rgb.sh 9873ac 
+	#lavender
+	bindsym m exec --no-startup-id sudo /home/gokul/scripts/rgb.sh d9017a 
+	#magenta
+	bindsym n exec --no-startup-id sudo /home/gokul/scripts/rgb.sh ddc0b4 
+	#nude pink
+	bindsym o exec --no-startup-id sudo /home/gokul/scripts/rgb.sh 6d712e 
+	#olive green
+	bindsym p exec --no-startup-id sudo /home/gokul/scripts/rgb.sh 902090 
+	#pink
+	bindsym q exec --no-startup-id sudo /home/gokul/scripts/rgb.sh ee3f9e 
+	#some random color, found nothing for q, lol
+	bindsym r exec --no-startup-id sudo /home/gokul/scripts/rgb.sh fA1a0c 
+	#ruby red
+	bindsym s exec --no-startup-id sudo /home/gokul/scripts/rgb.sh 00b5e2 
+	#sky blue
+	bindsym t exec --no-startup-id sudo /home/gokul/scripts/rgb.sh c66e4e 
+	#terracotta
+	bindsym u exec --no-startup-id sudo /home/gokul/scripts/rgb.sh 002f6c
+	#us navy blue
+	bindsym v exec --no-startup-id sudo /home/gokul/scripts/rgb.sh 85219c
+	#violet
+	bindsym w exec --no-startup-id sudo /home/gokul/scripts/rgb.sh a47449
+	#wood brown
+	bindsym x exec --no-startup-id sudo /home/gokul/scripts/rgb.sh ff4433
+	#x-mas red
+	bindsym y exec --no-startup-id sudo /home/gokul/scripts/rgb.sh ffe900
+	#yellow
+	bindsym z exec --no-startup-id sudo /home/gokul/scripts/rgb.sh 044022
+	#zucchini green
+	bindsym Shift+r exec --no-startup-id sudo /home/gokul/scripts/rgb.sh 501010
+	bindsym Shift+g exec --no-startup-id sudo /home/gokul/scripts/rgb.sh 105010
+	bindsym Shift+b exec --no-startup-id sudo /home/gokul/scripts/rgb.sh 101050
+	bindsym Shift+w exec --no-startup-id sudo /home/gokul/scripts/rgb.sh 404040
+#	bindsym Sfift+c exec --no-startup-id sudo /home/gokul/scripts/rgb.sh 105050
+	bindsym Shift+p exec --no-startup-id sudo /home/gokul/scripts/rgb.sh 501050
+	bindsym Shift+y exec --no-startup-id sudo /home/gokul/scripts/rgb.sh 505010
+	bindsym 1 exec --no-startup-id sudo /home/gokul/scripts/rgb.sh 2200ff 2200ff 2200ff ccff00
+	bindsym 2 exec --no-startup-id sudo /home/gokul/scripts/rgb.sh 2200ff ccff00 2200ff 2200ff
+#	bindsym 3 exec --no-startup-id sudo /home/gokul/scripts/rgb.sh 999999
+#	bindsym 4 exec --no-startup-id sudo /home/gokul/scripts/rgb.sh 999999	
+	bindsym Escape mode "default"
+	bindsym $mod+$mod1+k mode "default"
+}
+
+bindsym $mod+$mod1+k mode "keyboard light"

@@ -1,0 +1,9 @@
+mode "powermenu"{
+
+	bindsym p exec poweroff
+	bindsym r exec reboot
+	bindsym e exec i3-msg exit
+	bindsym Escape mode "default"
+	bindsym $mod+$mod1+p mode "default"
+}
+bindsym $mod+$mod1+p mode "powermenu"

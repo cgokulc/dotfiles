@@ -1,0 +1,11 @@
+mode "control"{
+	#increase brightness 
+	bindsym Up exec --no-startup-id sudo brightnessctl set +10%
+	bindsym Down exec --no-startup-id sudo brightnessctl set 10%-
+	bindsym s exec --no-startup-id gnome-screenshot
+	bindsym Escape mode "default"
+	bindsym $mod+$mod1+c mode "default"
+	bindsym Return mode "default"
+}
+
+bindsym $mod+$mod1+c mode "control"

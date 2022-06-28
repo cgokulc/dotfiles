@@ -1,0 +1,22 @@
+# switch to workspace
+bindsym $mod+1 workspace "main"
+bindsym $mod+2 workspace "browser"
+bindsym $mod+3 workspace "terminal"
+bindsym $mod+4 workspace "music"
+bindsym $mod+5 workspace "file"
+bindsym $mod+6 workspace "6"
+bindsym $mod+7 workspace "7"
+
+# move focused container to workspace
+bindsym $mod+Shift+1 move container to workspace "main"
+bindsym $mod+Shift+2 move container to workspace "browser"
+bindsym $mod+Shift+3 move container to workspace "terminal"
+bindsym $mod+Shift+4 move container to workspace "music"
+bindsym $mod+Shift+5 move container to workspace "file"
+bindsym $mod+Shift+6 move container to workspace "6"
+bindsym $mod+Shift+7 move container to workspace "7"
+
+# --- GOKUl
+bindsym $mod+Ctrl+Right exec --no-startup-id i3-msg workspace next
+bindsym $mod+Ctrl+Left exec --no-startup-id i3-msg workspace prev
+

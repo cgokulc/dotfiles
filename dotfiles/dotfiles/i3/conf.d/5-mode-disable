@@ -1,0 +1,6 @@
+mode "disable"{
+	bindsym Escape mode "default"
+	bindsym $mod+$mod1+d mode "default"
+}
+
+bindsym $mod+$mod1+d mode "disable"
